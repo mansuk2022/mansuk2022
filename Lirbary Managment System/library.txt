@@ -1,0 +1,5 @@
+Harry Potter, JK Rowling,28,$2
+Start with why,Simpn Sinek,6, $2
+Programming with python, John Smith, 20,$2
+ALice in Wonderland, Lewis Carrol,19,$3
+Ancient Mriner, Coleridge,10,$4
