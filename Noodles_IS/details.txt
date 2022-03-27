@@ -1,0 +1,19 @@
+﻿B100101N,Current,50,Yashoda Food , Spicy ,2021,Jan,01,2022,Jan,01
+B100102N,Meggi,20,Nestlé,Normal,2023,Apr,24,2024,Apr,24
+B100103N,Rum Pum ,20,Asian Thai Food ,Normal,2022,Feb,27,2022,Feb,27
+B100104N,LALI,70,Indofood ,Pasta,2021,Mar,17,2022,Mar,17
+B100105N,2PM,100,Asian Thai Food ,2x Spicy ,2023,Sept,12,2024,Sept,12
+B100106N,LALI,70,Indofood ,Pasta,2021, Oct,10,2022,Oct,10
+B100107N,Current,50,Yashoda Food , Spicy ,2022,Dec,27,2021,Dec,27
+B100108N,Meggi,20,Nestlé,Normal,2024,Jun,16,2025,Jun,16
+B100109N,LALI,70,Indofood ,Pasta,2023,Jul,23,2024,Jul,23
+B100110N,Wai Wai ,150,CG,Extra Spicy ,2022,Mar,13,2023,Mar,13
+B100111N,Current,50,Yashoda Food , Spicy ,2024,Nov,08,2025,Nov,08
+B100112N,Rum Pum ,20,Asian Thai Food ,Normal,2023,Aug,23,2024,Aug,23
+B100113N,2PM,100,Asian Thai Food ,2x Spicy ,2023,Oct,15,2024,Oct,15
+B100114N,Wai Wai ,150,CG,Extra Spicy ,2023,Nov,10,2024,Nov,10
+B100115N,2PM,100,Asian Thai Food ,2x Spicy ,2024,Jan,26,2025,Jan,26
+B100116N,Current,50,Yashoda Food , Spicy ,2022,Mar,06,20223,Mar,06
+B100117N,Wai Wai ,150,CG,Extra Spicy ,2025,Sept,15,2026,Sept,15
+B100118N,LALI,70,Indofood ,Pasta,2024,Aug,21,2025,Aug,21
+B100120N,Meggi,20,Nestlé,Normal,2021,Dec,19,2022,Dec,19
