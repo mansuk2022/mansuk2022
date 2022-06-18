@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CardStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Store">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Logo" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GiftCards">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="GiftCard">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:choice maxOccurs="unbounded">
+                      <xs:element name="cards" type="xs:string" />
+                      <xs:element name="CardID" type="xs:string" />
+                      <xs:element name="type" type="xs:string" />
+                      <xs:element name="Validity">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="ExpDate" type="xs:string" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="Discount">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="DiscountType" type="xs:string" />
+                            <xs:element name="Discription" type="xs:string" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="AcceptedStore">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="StoreName">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element maxOccurs="unbounded" name="name1" type="xs:string" />
+                                </xs:sequence>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Address">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element maxOccurs="unbounded" name="address1" type="xs:string" />
+                                </xs:sequence>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="Cost" type="xs:string" />
+                      <xs:element name="UserNumber" type="xs:string" />
+                    </xs:choice>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ShopDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="City" type="xs:string" />
+                    <xs:element name="ZipCode" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Contact">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Mobile" type="xs:string" />
+                    <xs:element name="Email" type="xs:string" />
+                    <xs:element name="LandLine" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Webpage" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

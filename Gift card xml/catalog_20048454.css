@@ -1,0 +1,133 @@
+CardStore {
+    color: black;
+    background-color: hsl(185, 84%, 76%);
+}
+
+Store,
+ShopDetails {
+    display: inline-block;
+    background-color: #118ab2;
+}
+
+GiftCards {
+    margin: 0.5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    height: 90%;
+    font-size: 17px;
+}
+
+
+Store {
+    width: 100%;
+    padding: 2%;
+}
+
+Name {
+    font-size: 40px;
+    color: black;
+}
+
+Logo {
+    content: url("giftcard.png");
+    width: 100px;
+    height: 100px;
+}
+
+GiftCard {
+    margin: 2%;
+    padding: 2%;
+    border: black solid 1px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px 4px teal;
+}
+
+GiftCard:hover {
+    box-shadow: 5px -5px 30px 10px #118ab2;
+}
+
+cards {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px;
+    border-radius: 25px;
+    background-color: #118ab2;
+}
+
+cards,
+type,
+CardID,
+Validity,
+Discount,
+AcceptedStore,
+Cost,
+UserNumber {
+    text-indent: 10px;
+    padding: 4px;
+    display: block;
+}
+
+Cost {
+    border: 2px solid teal;
+    border-radius: 25px;
+    width: 100px;
+    margin: 0.8%;
+}
+
+Cost:hover {
+    box-shadow: 5px -3px 30px 3px #118ab2;
+    border: 2px solid white;
+    color: white;
+    background-color: #118ab2;
+}
+
+ExpDate,
+DiscountType,
+Discription,
+StoreName,
+Address {
+    text-indent: 10px;
+    padding: 1px;
+    display: block;
+}
+
+name1 {
+    text-indent: 10px;
+    padding: 5px;
+    margin: 3px;
+    display: list-item;
+}
+
+address1{
+    text-indent: 10px;
+    padding: 5px;   
+}
+
+
+Address,
+Contact,
+Webpage {
+    text-indent: 10px;
+    padding: 5px;
+    display: grid;
+
+}
+
+ShopDetails {
+    padding: 5px;
+    padding-left: 80%;
+    width: 100%;
+    height: 10%;
+    font-size: 18px;
+}
+
+AcceptedStore {
+    border: 2px solid green;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type ="text/css" href="catalog_20048454.css"?>
+<?xml-model href="catalog_20048454.dtd" type="application/xml-dtd"?>
+<CardStore 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="catalog_20048454.xsd">
+        <Store id="header">
+                <Logo></Logo>
+                <Name> London Store </Name>
+        </Store>
+        <GiftCards>
+                <GiftCard>
+                        <cards> Eleo-Card </cards>
+                        <CardID>Card ID: 101 </CardID>
+                        <type>Type: Can purchase Electronic Item </type>
+                        <Validity>
+                                <ExpDate>Exp Date: 2023-Dec-10th </ExpDate>
+                        </Validity>
+                        <Discount>
+                                <DiscountType>Discount:  Huge Discount </DiscountType>
+                                <Discription>Discription: This Discount can cover upto 90% of actual price </Discription>
+                        </Discount>
+                        <AcceptedStore>
+                                <StoreName>
+                                        <name1> Ox Store </name1>
+                                        <name1>  Food Store  </name1>
+                                        <name1> Countyr-Side Store </name1>
+                                </StoreName>
+                                <Address >
+                                        <address1>=> London, Oxford Stret </address1>
+                                        <address1>=> London,Royal Street </address1>
+                                        <address1>=> London, Queen Street </address1>
+                                </Address>
+                        </AcceptedStore>
+                        <Cost>Cost: £15 </Cost>
+                        <UserNumber>UserName: 1 </UserNumber>
+                </GiftCard>
+                <GiftCard>
+                        <cards> Fodo-Card </cards>
+                        <type> Can purchase Food Item </type>
+                        <CardID> 102 </CardID>
+                        <Validity>
+                                <ExpDate> 2023-Apr-13rd </ExpDate>
+                        </Validity>
+                        <Discount>
+                                <DiscountType> Medium  Discount </DiscountType>
+                                <Discription> This Discount can cover upto 50% of actual price </Discription>
+                        </Discount>
+                        <AcceptedStore>
+                                <StoreName>
+                                        <name1> Ox Store </name1>
+                                        <name1>  Food Store  </name1>
+                                        <name1> Countyr-Side Store </name1>
+                                </StoreName>
+                                <Address>
+                                        <address1> London, Oxford Stret </address1>
+                                        <address1> London,Royal Street </address1>
+                                        <address1> London, Queen Street </address1>
+                                </Address>
+                        </AcceptedStore>
+                        <Cost> £10 </Cost>
+                        <UserNumber> 1 </UserNumber>
+                </GiftCard>
+                <GiftCard>
+                        <cards> DGame-Card </cards>
+                        <type>  Can purchase Digital Game Item </type>
+                        <CardID> 103 </CardID>
+                        <Validity>
+                                <ExpDate> 2023-Oct-01st </ExpDate>
+                        </Validity>
+                        <Discount>
+                                <DiscountType> Medium Discount </DiscountType>
+                                <Discription> This Discount can cover upto 15% of actual price </Discription>
+                        </Discount>
+                        <AcceptedStore>
+                                <StoreName>
+                                        <name1> Ox Store </name1>
+                                        <name1>  Food Store  </name1>
+                                        <name1> Countyr-Side Store </name1>
+                                </StoreName>
+                                <Address>
+                                        <address1> London, Oxford Stret </address1>
+                                        <address1> London,Royal Street </address1>
+                                        <address1> London, Queen Street </address1>
+                                </Address>
+                        </AcceptedStore>
+                        <Cost> £5 </Cost>
+                        <UserNumber> 3 </UserNumber>
+                </GiftCard>
+        </GiftCards>
+        <ShopDetails id="footer">
+                <Address>
+                        <City>City: London: Oxford Street </City>
+                        <ZipCode>ZipCode: 123 </ZipCode>
+                </Address>
+                <Contact>
+                        <Mobile>Mobile Number: +1231351335 </Mobile>
+                        <Email>Email: LondonStore@gmail.com </Email>
+                        <LandLine>Landline: 020-1241112 </LandLine>
+                </Contact>
+                <Webpage>Webpage: https://LondonStore.com </Webpage>
+        </ShopDetails>
+
+</CardStore>

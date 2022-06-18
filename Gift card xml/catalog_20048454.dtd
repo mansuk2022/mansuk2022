@@ -1,0 +1,28 @@
+<!ELEMENT store (store_details,giftcard)>
+<!ELEMENT store_details (store_name,address,Contact,website,email,logo)>
+<!ELEMENT store_name (#PCDATA)>
+<!ELEMENT address (street,city,postcode)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT Contact (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT logo EMPTY>
+<!ATTLIST logo format NMTOKEN #REQUIRED>
+<!ELEMENT giftcard (card+)>
+<!ELEMENT card (CardID,code?,name,cost,validity,usersNumber,discount_type,cardRemarks?)>
+<!ATTLIST card type NMTOKEN #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT validity (valid_from,valid_to)>
+<!ELEMENT valid_from (#PCDATA)>
+<!ELEMENT valid_to (#PCDATA)>
+<!ELEMENT number_of_users (#PCDATA)>
+<!ELEMENT discount_vouchers (#PCDATA)>
+<!ATTLIST discount_vouchers type NMTOKEN #REQUIRED>
+<!ELEMENT gift_message (#PCDATA)>
+<!ATTLIST gift_message occassion NMTOKEN #REQUIRED>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT valid_countries (country+)>
+<!ELEMENT CardID (#PCDATA)>
+
